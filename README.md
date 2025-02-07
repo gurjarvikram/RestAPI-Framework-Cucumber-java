@@ -22,8 +22,8 @@ continuous testing and deployment.
   - **POJO Classes** – For structured data representation.
   - **Utility Classes (Utils)** – Common reusable functions.
   - **Global Properties** – Centralized configuration management.
-  - **API Resources** – Organized API endpoint handling.
-- **Logging Support** – Generates detailed logs for better debugging and troubleshooting.
+  - **ENUM Classes** – Organizes API endpoint handling and resource management.
+- **Logging Mechanism** – Generates detailed logs for better debugging and troubleshooting.
 - **CI/CD Ready** – Seamlessly integrates with Jenkins for automated test execution.
 - **Custom Reporting** – Generates detailed test execution reports using **Cucumber HTML reports**.
 
