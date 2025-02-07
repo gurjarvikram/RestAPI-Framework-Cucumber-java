@@ -1,9 +1,11 @@
+
 ```md
 # REST API Automation Framework
 
 ## Overview
 This framework is designed for automating REST API testing using industry-standard tools and best practices.  
-It follows the BDD approach with Cucumber and integrates seamlessly into **Jenkins CI/CD pipelines** for continuous testing and deployment.
+It follows the BDD approach with Cucumber and integrates seamlessly into **Jenkins CI/CD pipelines** for
+continuous testing and deployment.
 
 ## Technologies Used
 - **Rest Assured** – For API testing and validation
@@ -57,3 +59,4 @@ Contributions are welcome! Please submit a pull request or open an issue for dis
 ## License
 This project is open-source software licensed under the [MIT License](LICENSE).
 ```
+
