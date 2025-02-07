@@ -1,8 +1,50 @@
+```md
+# REST API Automation Framework
 
-### **REST API Automation Framework**  
-**Technologies Used:**  
-- **Rest Assured** for API testing  
-- **Java** as the programming language  
-- **JUnit** for test assertions  
-- **Cucumber** for BDD approach  
-- **Maven** for build and dependency management
+## Overview
+This framework is designed for automating REST API testing using industry-standard tools and best practices. It follows the BDD approach with Cucumber and integrates seamlessly into CI/CD pipelines.
+
+## Technologies Used
+- **Rest Assured** – For API testing and validation
+- **Java** – Primary programming language
+- **JUnit** – For test assertions and reporting
+- **Cucumber** – Implements BDD (Behavior-Driven Development) for test scenarios
+- **Maven** – Manages dependencies and builds
+- **Jenkins** – CI/CD integration for automated test execution (`RestAPI-Framework-Cucumber`)
+
+## Key Features
+- **BDD Test Structure**: Uses Cucumber feature files for easy test scenario writing.
+- **Data-Driven Testing**: Supports parameterization for testing multiple datasets.
+- **Modular & Scalable**: Implements the Page Object Model (POM) for better maintainability.
+- **CI/CD Ready**: Seamlessly integrates with Jenkins for automated test execution.
+- **Custom Reporting**: Generates detailed test execution reports.
+
+## Setup & Installation
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/your-repo/RestAPI-Framework-Cucumber.git
+   ```
+2. Navigate to the project directory:
+   ```sh
+   cd RestAPI-Framework-Cucumber
+   ```
+3. Build the project using Maven:
+   ```sh
+   mvn clean install
+   ```
+4. Run tests:
+   ```sh
+   mvn test
+   ```
+
+## CI/CD Integration
+- Jenkins is configured to trigger test execution on code commits.
+- Test results are published via reports (e.g., Allure, Extent Reports).
+
+## Contributing
+Contributions are welcome! Please submit a pull request or open an issue for discussions.
+
+## License
+This project is open-source software licensed under the [MIT License](LICENSE).
+
+```
